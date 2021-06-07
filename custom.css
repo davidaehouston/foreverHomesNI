@@ -1,0 +1,611 @@
+.maincont {
+    background-color: teal;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    border: 2px solid 555;
+}
+
+
+#bkimg {
+    /*border: 2px solid green;*/
+    background: url(https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80)no-repeat center center fixed;
+    height: 100%;
+    background-clip: content-box;
+    background-size: cover;
+    position: relative;
+
+}
+
+#menu {
+    text-align: center;
+    /*border: 2px solid red;*/
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    font-size: 25px;
+    
+}
+
+
+#menubutton {
+    color: black;
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.form-check .form-check-input {
+
+    float: none;
+    margin-left: 0em;
+
+}
+
+
+#menuitem {
+    color: black;
+    
+}
+
+
+
+#menurow div {
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+
+}
+
+.navbar {
+    display: block;
+    padding: 0 0 0 0;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+#title {
+   /*border: 2px solid black;*/
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+#landingtitle h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+#landingtitle h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+#centerfield {
+   
+    background-color: white;
+    margin-top: 20px;
+    padding-bottom: 5%;
+    height: auto;
+
+}
+
+
+#bone {
+
+    background-image: url(img/bone.svg);
+    background-repeat: no-repeat;
+    height: 50px;
+    stroke: white;
+    stroke-opacity: inherit;
+    background-position-x: center;
+    /*border: 2px solid white;*/
+
+}
+
+
+#searchinfo {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+   
+}
+
+#searchinfo h4 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+#sbar {
+    width: 60%;
+    max-width: 60%;
+    margin-left: 5%;
+    height: 40px;
+   
+}
+
+
+#sbutton {
+    width: 30%;
+    background-color: black;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+#searchbar {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#searchy ::placeholder {
+
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+#footercont {
+    height: 60px;
+    background-color: black;
+}
+
+#footersection h4 {
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#aboutinfo {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+   
+}
+
+#dogimage {
+    max-width: 20%;
+    max-height: 20%;
+
+}
+
+#aboutinfo h4 {
+    margin-top: 20px;
+    font-size: 48px;
+}
+
+#ss1{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+
+
+
+#doggoimg1 {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    background-image: url(https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+   
+}
+
+#doggoimg2 {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1278&q=80);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    
+}
+
+#doggoimg3 {
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1568564321589-3e581d074f9b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    
+}
+
+.dog {
+    display: inline-block;
+    width: 250px;
+    object-fit: fill;
+}
+
+
+
+
+#sucess h1 {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.card {
+    border:  2px solid black;
+
+}
+
+#card-body {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+#card-text h5 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#card-text p {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+
+}
+
+#card-text {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+
+}
+
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.list-group-item {
+
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+#whoweare {
+
+border: 2px solid black;
+margin-top: 15px;
+text-align: center;
+font-family: 'Amatic SC', cursive;
+font-size: 18px;
+
+}
+
+#whoweareinfo h1 {
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#howitworks {
+
+    border: 2px solid black;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+  
+#howitworks h1 {
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#commitment {
+
+    border: 2px solid black;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+  
+#commitment h1 {
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#searchcrit {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#searchcrit div {
+    padding: 5px;
+
+}
+
+#breeddd {
+    width: 100%;
+    font-family: 'Amatic SC', cursive;
+    background-color: black;
+    font-size: 20px;
+    display: inline-block;
+
+}
+
+#searchtogg {
+    padding: 20px;
+    
+}
+
+
+
+#selbox {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    
+
+}
+
+.form-check-input {
+    color: black;
+}
+
+.card-img-top {
+
+    min-height: 350px;
+    max-height: 350px;
+    object-fit: cover;
+    background-position: center;
+    background-clip: border-box;
+    object-position: center;
+    background-size: 200%;
+}
+
+#resultset div {
+    margin-top: 15px;
+    
+
+}
+
+
+
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.card {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.card-text{
+
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    
+
+}
+
+
+#contacthead {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+#contact01 div {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    
+    
+}
+
+
+
+.heading div {
+
+    border: 2px solid green;
+
+}
+
+.dropdown-menu {         
+    max-height: 200px;
+    overflow-y: auto;
+
+}
+
+#dbutton {
+    margin: 15px;
+}
+
+#admindash  {
+
+    margin-top: 100px;
+
+}
+
+#doginfo p {
+
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+    
+
+
+}
+
+#doginfo2 p {
+
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+
+
+}
+
+
+
+#doggoprofileimg p {
+
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Amatic SC', cursive;
+    
+}
+
+
+
+
+.doggoprofileimg2 img {
+
+    
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    min-width: 200px;
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    
+}
+
+#aboutinfo {
+    margin-bottom: 55px;
+    margin-top: 30px;
+}
+
+#panel {
+
+    margin-top: 100px;
+}
+
+#panel h2 {
+
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+#panel label {
+
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+#panel button {
+
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+}
+#Login {
+
+    font-family: 'Amatic SC', cursive;
+}
+
+#doggoprofileimg img {
+    height: 100%;
+    width: 100%;
+    max-width: 350px;
+    max-height: 350px;
+    min-height: 350px;
+    min-width: 350px;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
